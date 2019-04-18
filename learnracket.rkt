@@ -1,4 +1,3 @@
-
 #lang racket ; defines the language we are using
 
 ;;; Comments
