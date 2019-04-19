@@ -33,3 +33,6 @@
       (- x)
       x))
 (my-abs-3 -9)
+
+(define (>= x y)
+  (or (> x y) (= x y)))
