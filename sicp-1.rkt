@@ -32,7 +32,7 @@
   (if (< x 0)
       (- x)
       x))
-(my-abs-3 -9)
+(my-abs-3 -98)
 
 (define (>= x y)
   (or (> x y) (= x y)))
