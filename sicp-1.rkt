@@ -36,3 +36,18 @@
 
 (define (>= x y)
   (or (> x y) (= x y)))
+
+((lambda (x) x)
+ 88)
+
+(define goo
+  (lambda (x)
+    (+ x 66)))
+
+(define (goo-2 x)
+  (+ x 77))
+
+(and 33 44)
+(and #f 44)
+(or 55 66)
+(or 77 #f)
