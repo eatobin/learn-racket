@@ -1,4 +1,4 @@
-#lang sicp
+(require sicp)
 (inc 42)
 
 (define (square x) (* x x))
