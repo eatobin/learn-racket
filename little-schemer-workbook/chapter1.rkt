@@ -16,6 +16,3 @@
 (define l2 (list 7 '(+ 1 1)))
 (atom? (car l1))
 (atom? (car l2))
-
-(define test
-  (= 0 0))
