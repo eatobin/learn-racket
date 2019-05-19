@@ -1,5 +1,6 @@
 (define (atom? x)
   (and (not (pair? x)) (not (null? x))))
+
 (atom? '())
 (atom? (quote ()))
 (atom? (quote atom))
@@ -9,5 +10,5 @@
 (atom? 'u)
 (atom? '*abc$)
 (list? '(atom))
-(list? '(atom turkey) 'or)
+;(list? '(atom turkey) 'or)
 (list? '((atom turkey) or))
