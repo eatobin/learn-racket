@@ -1,4 +1,4 @@
-#lang racket
+#lang sicp
 
 (inc 42)
 
