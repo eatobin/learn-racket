@@ -1,3 +1,5 @@
+; ,cd "~/lisp_projects/scheme/racket/learn-racket/little-schemer-workbook"
+
 #lang racket
 
 (define atom?
