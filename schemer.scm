@@ -12,5 +12,3 @@
 (list? '(atom))
 ;(list? '(atom turkey) 'or)
 (list? '((atom turkey) or))
-
-tester
