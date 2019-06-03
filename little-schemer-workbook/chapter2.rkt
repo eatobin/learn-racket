@@ -1,12 +1,12 @@
 #lang racket
 
-(require (only-in "chapter1.rkt" [atom? ch1/atom?]))
+(require "chapter1.rkt")
 
 (define lat?
   (lambda (l)
     (cond
       ((null? l) #t)
-      ((ch1/atom? (car l))(lat? (cdr l)))
+      ((atom? (car l))(lat? (cdr l)))
       (else #f))))
 
 (lat? '(bacon and eggs))
