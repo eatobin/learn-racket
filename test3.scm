@@ -1,2 +1,2 @@
-(include "test2.scm")
-(my-add-one 77)
+(include "little-schemer-workbook/chapter1.scm")
+;(my-add-two 77)
