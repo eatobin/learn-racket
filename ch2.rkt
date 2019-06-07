@@ -2,8 +2,8 @@
 
 (require "ch1.rkt")
 
-(provide lat?
-         member?)
+(provide lat?)
+(provide member?)
 
 (define lat?
   (lambda (l)
