@@ -13,3 +13,6 @@
 (define my-add-two
   (lambda (y)
     (+ y 2)))
+
+(define (my-add-three z)
+  (+ z 3))
