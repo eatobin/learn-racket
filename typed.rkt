@@ -12,4 +12,9 @@
   (* x y))
 
 (: suber (-> Integer Integer Integer))
-(define (suber x y) (- x y))
+(define (suber x y)
+  (- x y))
+
+(: dblr (-> Integer Integer))
+(define (dblr i)
+  (* i 2))
